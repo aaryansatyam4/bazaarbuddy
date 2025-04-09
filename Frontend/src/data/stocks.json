@@ -1,0 +1,70 @@
+{
+  "stocks": [
+    {
+      "id": 1,
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "price": 2456.75,
+      "change": 2.34,
+      "volume": 8543210,
+      "marketCap": "1654.32B",
+      "sector": "Energy"
+    },
+    {
+      "id": 2,
+      "name": "Tata Consultancy Services",
+      "ticker": "TCS",
+      "price": 3567.80,
+      "change": -1.23,
+      "volume": 2345678,
+      "marketCap": "1289.45B",
+      "sector": "Technology"
+    },
+    {
+      "id": 3,
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "price": 1678.90,
+      "change": 0.45,
+      "volume": 3456789,
+      "marketCap": "987.65B",
+      "sector": "Banking"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "stockId": 1,
+      "quantity": 100,
+      "buyPrice": 2400.50,
+      "currentValue": 245675.00,
+      "profitLoss": 5625.00
+    },
+    {
+      "id": 2,
+      "stockId": 2,
+      "quantity": 50,
+      "buyPrice": 3600.00,
+      "currentValue": 178390.00,
+      "profitLoss": -1610.00
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "type": "price_drop",
+      "ticker": "RELIANCE",
+      "message": "RELIANCE dropped by 5%",
+      "timestamp": "2024-03-15T10:30:00Z",
+      "severity": "high"
+    },
+    {
+      "id": 2,
+      "type": "volume_spike",
+      "ticker": "TCS",
+      "message": "Unusual volume detected in TCS",
+      "timestamp": "2024-03-15T11:15:00Z",
+      "severity": "medium"
+    }
+  ]
+}
